@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ProduitsController!{% endblock %}
+
+{% block script %}
+    <script>
+        import App from "../../assets/components/App";
+        export default {
+            components: {App}
+        }
+    </script>
+
+{% endblock %}
+
+
+{% block body %}
+
+<div id="app">
+    <App/>
+</div>
+{% endblock %}
+
+
